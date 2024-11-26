@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "synvoices"
+version = "0.1.0"
+description = ""
+authors = ["Christian Resch, CLEAR Global <christian.resch@clearglobal.org>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9,<3.10"
+TTS = "^0.22.0"
+pandas = ">=1.4,<2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
