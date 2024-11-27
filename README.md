@@ -32,20 +32,20 @@ synvoices/<br>
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd synvoices
-   ```
+```bash
+git clone <repository-url>
+cd synvoices
+```
 
 2.	Install dependencies using Poetry:
-   ```bash
-   poetry install
-   ```
+```bash
+poetry install
+```
 
 3. Start poetry shell
-   ```bash
-   poetry shell
-   ```
+```bash
+poetry shell
+```
 
 ## Usage
 
@@ -53,9 +53,9 @@ synvoices/<br>
 
 The bibleTTS_syn_voice_generator.py script processes a CSV file and generates audio files for the text it contains.
 
-   ```bash
-   python bibleTTS_syn_voice_generator.py --csv <path-to-csv> [--n <number-of-rows>] [--language <language>] [--model <tts-model>]
-   ```
+```bash
+python bibleTTS_syn_voice_generator.py --csv <path-to-csv> [--n <number-of-rows>] [--language <language>] [--model <tts-model>]
+```
 
 ### Arguments
 	--csv: (required) Path to the CSV file containing the text data.
@@ -64,7 +64,7 @@ The bibleTTS_syn_voice_generator.py script processes a CSV file and generates au
 	--model: (optional) TTS model to use. Default: tts_models/hau/openbible/vits.
 
 ### Example
-
+To generate audio for the first 5 rows of a CSV file using the default language and model:
 ```commandline
 python bibleTTS_syn_voice_generator.py --csv bmgf_cg_hausa_round12_merged.csv --n 5
 ```
