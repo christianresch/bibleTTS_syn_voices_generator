@@ -66,7 +66,7 @@ python bibleTTS_syn_voice_generator.py --csv <path-to-csv> [--n <number-of-rows>
 ### Example
 To generate audio for the first 5 rows of a CSV file using the default language and model:
 ```commandline
-python bibleTTS_syn_voice_generator.py --csv bmgf_cg_hausa_round12_merged.csv --n 5
+python bibleTTS_syn_voice_generator.py --csv="bmgf_cg_hausa_round12_merged - bmgf_cg_hausa_round12_merged.csv" --n=5
 ```
 
 ### Output
