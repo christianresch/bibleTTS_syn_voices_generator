@@ -13,15 +13,13 @@ SynVoices is a Python-based tool for generating synthetic voices for Bible trans
 
 ## Project Structure
 
-synvoices/
-├── hausa/                            # Output directory for generated audio files
-├── .gitignore                        # Ignored files and directories
-├── bibleTTS_syn_voice_generator.py   # Core Python script for generating audio
-├── bmgf_cg_hausa_round12_merged.csv  # Example CSV file (replace with your own data)
-├── poetry.lock                       # Poetry lock file for dependency management
-├── pyproject.toml                    # Poetry configuration file
-├── README.md                         # Project documentation
-└── sample.wav                        # Example generated audio file
+synvoices/<br>
+├── hausa/                            # Output directory for generated audio files<br>
+├── .gitignore                        # Ignored files and directories<br>
+├── bibleTTS_syn_voice_generator.py   # Core Python script for generating audio<br>
+├── poetry.lock                       # Poetry lock file for dependency management<br>
+├── pyproject.toml                    # Poetry configuration file<br>
+└── README.md                         # Project documentation<br>
 
 ---
 
